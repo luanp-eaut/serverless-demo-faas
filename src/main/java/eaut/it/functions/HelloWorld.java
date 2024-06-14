@@ -7,7 +7,6 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 
 public class HelloWorld implements HttpFunction {
-    // Simple function to return "Hello World"
     @Override
     public void service(HttpRequest request, HttpResponse response)
         throws IOException {
