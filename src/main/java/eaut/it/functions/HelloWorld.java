@@ -14,6 +14,6 @@ public class HelloWorld implements HttpFunction {
           var names = queryParams.get("name");
           var name = names!=null? names.get(0):"World";
       BufferedWriter writer = response.getWriter();
-      writer.write(String.format("Hello %s!",name));
+      writer.write(String.format("<h1>Hello %s!</h1>",name));
     }
   }
