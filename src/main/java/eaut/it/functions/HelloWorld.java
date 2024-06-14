@@ -10,8 +10,8 @@ public class HelloWorld implements HttpFunction {
     @Override
     public void service(HttpRequest request, HttpResponse response)
         throws IOException {
-          var query = request.getQueryParameters();
-          var names = query.get("name");
+          var queryParams = request.getQueryParameters();
+          var names = queryParams.get("name");
           var name = names!=null? names.get(0):"World";
       BufferedWriter writer = response.getWriter();
       writer.write(String.format("Hello %s!",name));
