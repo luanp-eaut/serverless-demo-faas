@@ -42,9 +42,6 @@ public class Hello implements HttpFunction {
     
             writer.write("        </div>");
             writer.write("    </div>");
-            writer.write("    <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script>");
-            writer.write("    <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js\"></script>");
-            writer.write("    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.min.js\"></script>");
             writer.write("</body>");
             writer.write("</html>");
         }
