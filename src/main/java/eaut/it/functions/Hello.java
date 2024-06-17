@@ -35,8 +35,8 @@ public class Hello implements HttpFunction {
             } else {
                 writer.write("            <form method=\"POST\" action=\"/serverless-demo\" class=\"form\">");
                 writer.write("                <div class=\"mb-3\">");
-                writer.write("                    <label for=\"username\" class=\"form-label\">Tên người dùng:</label>");
-                writer.write("                    <input type=\"text\" id=\"username\" name=\"username\" class=\"form-control\" placeholder=\"Tên người dùng\">");
+                writer.write("                    <label for=\"username\" class=\"form-label\">Hãy nhập tên của bạn:</label>");
+                writer.write("                    <input type=\"text\" id=\"username\" name=\"username\" class=\"form-control\" placeholder=\"Guest\">");
                 writer.write("                </div>");
                 writer.write("                <button type=\"submit\" class=\"btn btn-primary\">Submit</button>");
                 writer.write("            </form>");
