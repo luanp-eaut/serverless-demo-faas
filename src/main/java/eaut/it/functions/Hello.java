@@ -19,7 +19,7 @@ public class Hello implements HttpFunction {
             writer.write("<h1>Xin chào " + username + "</h1>");
         } else {
             writer.write("<form method=\"POST\" action=\"/\">");
-            writer.write("  <label for=\"username\">Tên người dùng:</label>");
+            writer.write("  <label for=\"username\">Hãy nhập tên của bạn:</label>");
             writer.write("  <input type=\"text\" id=\"username\" name=\"username\">");
             writer.write("  <input type=\"submit\" value=\"Submit\">");
             writer.write("</form>");
