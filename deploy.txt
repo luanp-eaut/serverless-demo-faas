@@ -1,1 +1,1 @@
-gcloud functions deploy serverless-demo --gen2 --entry-point=eaut.it.functions.HelloWorld --runtime=java17 --region=us-central1 --source=. --trigger-http --allow-unauthenticated
+gcloud functions deploy serverless-demo --gen2 --entry-point=eaut.it.functions.Hello --runtime=java17 --region=us-central1 --source=. --trigger-http --allow-unauthenticated
